@@ -1,0 +1,92 @@
+/*
+This controls the body of the page
+You can use this to set the background color, margins, etc. as shown below
+*/
+body {
+  background-color: #000000;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* This is used to make profile picture cropped as a circle */
+img {
+  width:250px;
+  height:250px;
+  border: 5px dotted #ffcc01
+}
+
+/* Formatting for different header levels, if you need them! */
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: Averta, sans-serif;
+  color: #ffcc01;
+  font-size: 56px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Averta, sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Formatting for paragraph text */
+p {
+  margin-bottom: 20px;
+  font-family: Averta, sans-serif;
+  color: #ffcc01;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+/* "a" refers to links, everything below controls the color and behavior of link objects */
+a {
+  -webkit-transition: border-color 200ms ease, color 200ms ease;
+  transition: border-color 200ms ease, color 200ms ease;
+  color: #ffcc01;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-color: #ffcc01;
+  color: #ff3a2f;
+}
+
+a:focus {
+  border-bottom-color: #ffcc01;
+  color: #ff3a2f;
+}
+
+/* Anything marked as class="content" will have options below attached */
+.content {
+  margin-top: 60px;
+}
+
+/* below is special formatting for a custom object, here a social-icon class */
+.social-icon {
+  margin-top: 60px;
+  padding-right: 25px;
+  float: right;
+  border-bottom: 0px none #ffcc01;
+}
+
+/* form settings */
+form {
+  font-family: Averta, sans-serif;
+  font-size: 22px; 
+  color: #fff;
+}
+
+button {
+  font-family: Averta, sans-serif;
+  font-size: 22px; 
+  color: rgb(255, 204, 1);
+}
